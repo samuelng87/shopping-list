@@ -42,8 +42,15 @@ transform: rotate(1440deg);
 
 .done {
   text-decoration: line-through;
-  position: absolute;
-  left: 10rem;
+  transition: 1s;
+  opacity: 0.6;
+  color:green;
+padding-right: 1rem;
+font-size: small;
+}
+
+.delete {
+  transition: 1s;
 }
 
 body,input,button{
@@ -54,5 +61,15 @@ body,input,button{
 }
 
 
+li {
+  transition: 1s;
+  font-size: large;
+  line-height: 2;
+list-style: none;
+padding-right:0;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-
+button {
+margin:0px 0px 0px 10px;
+}
